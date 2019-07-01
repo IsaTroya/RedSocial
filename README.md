@@ -4,7 +4,7 @@
 - 	**git add**
 -	**git status**
 -	**git commit -m-""**
--	**git remote add origin <direccion de donde esta creado el proyecto del gitHub>**
+-	**git remote add origin "direccion de donde esta creado el proyecto del gitHub"**
 -	**git push origin master** 
   
 y con estos comando se sube el proyecto a GitHub, en el caso de que no funcione el push
