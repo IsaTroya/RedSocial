@@ -7,5 +7,6 @@ var api = express.Router(); //para tener acceso a los etodos get, post,delete et
 api.get('/home',UserController.home); //path home y metodo a cargar es UserController
 api.get('/pruebas', UserController.pruebas);
 api.post('/registrar', UserController.guardarUsuario);
+api.post('/login', UserController.iniciarSesion);
 
 module.exports = api;
